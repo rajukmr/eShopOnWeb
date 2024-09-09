@@ -41,6 +41,7 @@ public class CatalogItemGetByIdEndpoint : IEndpoint<IResult, GetByIdCatalogItemR
 
         response.CatalogItem = new CatalogItemDto
         {
+           //test code
             Id = item.Id,
             CatalogBrandId = item.CatalogBrandId,
             CatalogTypeId = item.CatalogTypeId,
