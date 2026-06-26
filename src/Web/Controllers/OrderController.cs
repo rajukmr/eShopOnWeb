@@ -19,6 +19,7 @@ public class OrderController : Controller
         _mediator = mediator;
     }
 
+    // Get list of order details
     [HttpGet]
     public async Task<IActionResult> MyOrders()
     {   
